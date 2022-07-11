@@ -3,102 +3,103 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-        <title>Scientific Formulae</title>
+        <title>Mathematical Formulae</title>
 
     </head>
-    <body>
-        <h1>Scientific Formulae</h1>
 
-        <h2>Home</h2>
-
-        <input type="search" value="" id="search" onchange="openPage()">
-
-        <script>
-            function openPage() {
-                var x = document.getElementById("search").value;
-                if (x === "pure") {
-                    window.open("https://scienceformulae.github.io/pure_mathematics");
-                }
-                if (x === "statistics") {
-                    window.open("https://scienceformulae.github.io/statistics");
-                }
-                if (x === "mechanics") {
-                    window.open("https://scienceformulae.github.io/mechanics");
-                }
-                if (x === "index") {
-                    window.open("https://scienceformulae.github.io/indices");
-                }
-                if (x === "power") {
-                    window.open("https://scienceformulae.github.io/power");
-                }
-                if (x === "square") {
-                    window.open("https://scienceformulae.github.io/square");
-                }
-                if (x === "dots") {
-                    window.open("https://scienceformulae.github.io/dots");
-                }
-                if (x === "quadratic") {
-                    window.open("https://scienceformulae.github.io/quadratic.html");
-                }
-                if (x === "discriminant") {
-                    window.open("https://scienceformulae.github.io/discriminant.html");
-                }
     
-            }
-        </script>
+    <style>
+        body {background-color:white; color:black;width:750px;margin-left:400px;margin-top:50px}
+        h1 {border-color:black; border-width:1px; border-style:solid; border: radius 2px;background-color:beige; padding:10px;text-align:center;}
+        h2 {color:navy;text-align:center;}
+        .red-text {color:red; font: size 15px; font-family:garamond,monospace;}
+        .logo {height:200px; width:200px; text-align:center; margin-left:275px}
 
-        <p><u><b><strong>Welcome to Scientific Formulae, a large online catalogue of mathematical and scientific formulae.</strong></b></u></p>
-        <p><i><em>Use the search bar above to start exploring. Enter one of: pure, statistics, mechanics.</em></i></p>
-        <p><i><em>Alternatively, try to find what you are looking for immediately by typing what you want in the search box.</em></i></p>
-    <br><br><br>
-        
-    <hr>
-         <p><b>Search box instructions for use.</b></p>
-         <p>To use the search box, enter a single word which comes under one of the following:</p>
-         <ul>
-             <li>Keyword, typically the name of the equation or law e.g. "stokes" to search for Stokes's Law, "newton" for Newton's Laws or "index" for Laws of Indices. Note:
-                 <ul><li>There are no capital letters</li>
-                 <li>There is no punctuation e.g. <b>not</b> " stokes' "</li>
-                 <li>No superfluous uses of "s" e.g. <b>not</b> " newtons " </li>
-                 <li>No plurals e.g. <b>not</b> " indices " </li>
-                 <li>Correct spelling is used</li></ul>
+    </style>
 
-             </li>
-             <li>The full name of a component of an equation e.g. for f=ma, type "force" and this equation will come up as a result. Note:
-                 <ul><li>There are no capital letters</li>
-                 <li>As force is in a lot of equations, there will be more than one result</li></ul>
-             </li>
-             <li>Type in the equation e.g. f=ma. Note:
-                 <ul><li>There are no capital letters</li>
-                 <li>There are no spaces</li>
-                 <li>Letters do not need a multiplication sign (*) between them</li>
-                 <li>Use / for division where applicable</li></ul>
-             </li>
-         </ul>
-         <hr>
-            <p>The mission of this website is to help anyone revising GCSEs or A-levels, needing to find a formula that meets their requirements. 
-            For each formula, there is an explanation of how it works and many of the formulas are proven.
-            Very little prior knowledge is assumed, so someone as young as eleven could grasp something as difficult as calculus, oblique collisions or calorimetry. </p>   
-         
 
-         
+<body>
+    <h1>Mathematical Formulae</h1>
+    <p><u><b><strong>Welcome to Mathematical Formulae, a large online catalogue of mathematical and scientific formulae.</strong></b></u></p>
+    
 
-            <table border="1" cellpadding="10" cellspacing="2">
-                <tr>
-                    <th></th>
-                    <th>Update</th>
-                    <th colspan="2">Formulae and % proven</th>
-                    <th>Practice Tests</th>
-                    <th>Other resources</th>
-                </tr>
-                <tr>
-                    <td rowspan="2">2022</td>
-                    <td>April</td>
-                    <td>3</td>
-                    <td>100%</td>
-                    <td>0</td>
-                    <td>2</td></tr>
-            </table>
+    <img class="logo" src="C:\Users\samue\OneDrive\Documents\CREST\mathematical_encyclopaedia_logo_online.png">
 
-    </body>           
-</html>
+    <h2>Home</h2>
+    <a href="pure.html" target="_blank">Pure</a>|<a href="mechanics.html" target="_blank">Mechanics</a>|<a href="statistics.html" target="_blank">Statistics</a>
+<hr>
+
+<!--Search function-->
+<input type="search" value="" id="search" onchange="openPage()">
+
+<script>
+    function openPage() {
+        var x = document.getElementById("search").value;
+        if (x === "pure") {window.open("https://scienceformulae.github.io/pure_mathematics");}
+        if (x === "statistics")     {window.open("https://scienceformulae.github.io/statistics");}
+        if (x === "mechanics")      {window.open("https://scienceformulae.github.io/mechanics");}
+        if (x === "index")          {window.open("https://scienceformulae.github.io/indices");}
+        if (x === "power")          {window.open("https://scienceformulae.github.io/power");}
+        if (x === "square")         {window.open("https://scienceformulae.github.io/square");}
+        if (x === "dots")           {window.open("https://scienceformulae.github.io/dots");}
+        if (x === "quadratic")      {window.open("https://scienceformulae.github.io/quadratic.html");}
+        if (x === "discriminant")   {window.open("https://scienceformulae.github.io/discriminant.html");}
+    }
+</script>
+<!--Search function-->
+
+
+
+<p class="red-text"><i><em>Use the search bar above to start exploring. Enter one of: pure, statistics, mechanics.</em></i></p>
+<p><i><em>Alternatively, try to find what you are looking for immediately by typing what you want in the search box.</em></i></p>
+
+    
+<hr>
+     <p><b>Search box instructions for use.</b></p>
+     <p>To use the search box, enter a single word which comes under one of the following:</p>
+     <ul>
+         <li>Keyword, typically the name of the equation or law e.g. "stokes" to search for Stokes's Law, "newton" for Newton's Laws or "index" for Laws of Indices. Note:
+             <ul><li>There are no capital letters</li>
+             <li>There is no punctuation e.g. <b>not</b> " stokes' "</li>
+             <li>No superfluous uses of "s" e.g. <b>not</b> " newtons " </li>
+             <li>No plurals e.g. <b>not</b> " indices " </li>
+             <li>Correct spelling is used</li></ul>
+
+         </li>
+         <li>The full name of a component of an equation e.g. for f=ma, type "force" and this equation will come up as a result. Note:
+             <ul><li>There are no capital letters</li>
+             <li>As force is in a lot of equations, there will be more than one result</li></ul>
+         </li>
+         <li>Type in the equation e.g. f=ma. Note:
+             <ul><li>There are no capital letters</li>
+             <li>There are no spaces</li>
+             <li>Letters do not need a multiplication sign (*) between them</li>
+             <li>Use / for division where applicable</li></ul>
+         </li>
+     </ul>
+     <hr>
+        <p>The mission of this website is to help anyone revising GCSEs or A-levels, needing to find a formula that meets their requirements. 
+        For each formula, there is an explanation of how it works and many of the formulas are proven.
+        Very little prior knowledge is assumed, so someone as young as eleven could grasp something as difficult as calculus, oblique collisions or calorimetry. </p>   
+     
+
+     
+
+        <table border="1" cellpadding="10" cellspacing="2">
+            <tr>
+                <th></th>
+                <th>Update</th>
+                <th colspan="2">Formulae and % proven</th>
+                <th>Practice Tests</th>
+                <th>Other resources</th>
+            </tr>
+            <tr>
+                <td rowspan="2">2022</td>
+                <td>April</td>
+                <td>3</td>
+                <td>100%</td>
+                <td>0</td>
+                <td>2</td></tr>
+        </table>
+
+</body>
